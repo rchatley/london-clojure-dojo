@@ -14,7 +14,7 @@
 
 (defn slide [pitches inst] (map (fn [x y] (change-pitch x y inst)) times pitches))
 
-(square wave)
+(square-wave)
 (slide (falling-pitches 440) square-wave)
 (slide (rising-pitches 220) square-wave)
 (stop)
